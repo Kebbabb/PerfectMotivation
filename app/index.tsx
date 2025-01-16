@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
 export default function Index() {
   return (
     <ImageBackground 
-    source={require('C:/Users/next4937/Documents/React native/perfectmotivation/assets/images/BB.png')}
+          source={require('C:/Users/Benyamin/Documents/GitHub/PerfectMotivation/assets/images/BB.png')}
     style={styles.backgroundImage}>
       <View>
         <Text style={styles.Maintext}>Hi Benyamin how has your day been!</Text>

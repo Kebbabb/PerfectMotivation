@@ -1,7 +1,7 @@
 //alt det, der har en grøn tekst foran må ikke fjernes ellers gør hvad du vil fpr at gøre den flot
 import React, { useEffect } from 'react';
 import { useRouter } from 'expo-router';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, ImageBackground } from 'react-native';
 
 
 const Greattrans = () => {
@@ -18,9 +18,11 @@ const Greattrans = () => {
   
   // skriv herinde fra:
   return (
-    <View style={styles.container}>
+      <ImageBackground
+          source={require('C:/Users/Benyamin/Documents/GitHub/PerfectMotivation/assets/images/BB.png')}
+          style={styles.container}>
       <Text style={styles.text}>Great, then let's look at your day for today</Text>
-    </View>
+    </ImageBackground>
   );
 };
 
